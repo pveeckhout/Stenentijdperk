@@ -1,4 +1,4 @@
-package com.pietervaneeckhout.stenentijdperk.eventframework;
+package com.pietervaneeckhout.stenentijdperk.events;
 
 public abstract class AbstractEvent implements Event {
 
