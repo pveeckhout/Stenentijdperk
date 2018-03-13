@@ -1,0 +1,8 @@
+package com.pietervaneeckhout.stenentijdperk.eventframework;
+
+public abstract class AbstractEvent implements Event {
+
+	public Class<? extends Event> getType() {
+		return getClass();
+	}
+}
